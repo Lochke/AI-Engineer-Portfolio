@@ -1,0 +1,6 @@
+{
+  "name": "Loc Nguyen AI Engineer Portfolio",
+  "description": "Interactive dark-themed AI Engineer portfolio website for Nguyen Minh Loc, showcasing Computer Vision and RAG/LLM projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
