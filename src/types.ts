@@ -5,6 +5,7 @@ export interface Project {
   description: string;
   tags: string[];
   image: string;
+  github?: string;
 }
 
 export interface ServiceStage {

@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowUpRight, ArrowDown } from "lucide-react";
-import avatarImg from "../assets/images/avatar_loc_1783697449482.jpg";
+import avatarImg from "../assets/images/Minh Loc.png";
 
 export default function Hero() {
   const handleScrollToWork = () => {
@@ -138,7 +138,7 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Right Column (Interactive ID Card) */}
+        {/* Right Column (Interactive Badge) */}
         <div className="lg:col-span-5 flex justify-center items-center relative py-12 lg:py-0" id="hero-right-col">
           {/* Floating constraints helper */}
           <div className="w-full max-w-[320px] aspect-[3/4] relative">
@@ -171,8 +171,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/[0.01] to-white/[0.05] pointer-events-none rounded-[24px] z-20" />
 
               {/* Top Slot Header */}
-              <div className="flex justify-between items-center pb-4 border-b border-white/5 relative z-10">
-                <span className="font-mono text-[9px] tracking-widest text-[#10b981]">ID CARD: #71321</span>
+              <div className="flex justify-end items-center pb-4 border-b border-white/5 relative z-10">
                 <span className="text-[10px] font-mono text-zinc-500 font-medium">UIT VNU-HCM</span>
               </div>
 

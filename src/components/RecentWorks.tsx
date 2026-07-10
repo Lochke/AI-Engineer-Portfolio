@@ -18,7 +18,8 @@ export default function RecentWorks() {
       title: "Vietnamese License Plate Detection",
       description: "A two-stage detection + OCR pipeline (YOLOv5m + OpenCV) achieving 99.4% mAP@0.5 and 94.06% character accuracy, deployed via Flask with real-time frame buffering and asynchronous queue-based image processing.",
       tags: ["YOLOv5", "OpenCV", "Flask", "Python"],
-      image: imgLicensePlate
+      image: imgLicensePlate,
+      github: "https://github.com/Lochke/Plate-detection"
     },
     {
       id: "project-2",
@@ -26,7 +27,8 @@ export default function RecentWorks() {
       title: "RAG PDF Chatbot",
       description: "A full RAG pipeline (LangChain, ChromaDB, Google Gemini API) with a FastAPI backend and Streamlit frontend, achieving 91.7% QA accuracy, deployed on Render + Streamlit Community Cloud. Features custom document splitters and semantic routing.",
       tags: ["LangChain", "ChromaDB", "FastAPI", "Streamlit", "Gemini API"],
-      image: imgRagChatbot
+      image: imgRagChatbot,
+      github: "https://github.com/Lochke/rag-pdf-chatbot"
     }
   ];
 
@@ -393,7 +395,7 @@ export default function RecentWorks() {
                     {/* Links */}
                     <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-white/5">
                       <a
-                        href="https://github.com/locnguyenminh"
+                        href={activeProject.github || "https://github.com/locnguyenminh"}
                         target="_blank"
                         rel="noreferrer"
                         className="flex-1 flex justify-center items-center space-x-2 border border-white/10 hover:border-[#10b981]/30 bg-white/5 hover:bg-[#10b981]/5 px-4 py-3 rounded-xl text-xs font-mono font-semibold tracking-wider text-white hover:text-[#10b981] transition-all text-center cursor-pointer"

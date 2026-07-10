@@ -107,7 +107,7 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="https://linkedin.com/in/locnguyenminh"
+                    href="https://www.linkedin.com/in/l%E1%BB%99c-nguy%E1%BB%85n-minh-29a542330/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex items-center space-x-2 text-sm font-sans font-medium text-zinc-400 hover:text-[#10b981] transition-colors cursor-pointer"

@@ -52,10 +52,10 @@ export default function Navbar() {
         {/* Logo */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="font-display font-bold text-2xl tracking-tighter text-white hover:opacity-80 transition-opacity cursor-pointer flex items-center"
+          className="font-display font-bold text-lg sm:text-xl md:text-2xl tracking-tighter text-white hover:opacity-80 transition-opacity cursor-pointer flex items-center"
           id="nav-logo"
         >
-          LOC<span className="text-[#10b981] ml-0.5">.</span>
+          NGUYEN MINH LOC<span className="text-[#10b981] ml-0.5">.</span>
         </button>
 
         {/* Center Desktop Links */}
